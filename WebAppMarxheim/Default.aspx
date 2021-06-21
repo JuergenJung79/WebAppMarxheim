@@ -13,7 +13,7 @@
                 Tracking der Stromerzeugung und Vergütung.
             </p>
             <p>
-                <a class="btn btn-default" href="https://13b6yam3km4gfact.myfritz.net:81">Siehe hier &raquo;</a>
+                <a class="btn btn-default" target="_blank" href="http://13b6yam3km4gfact.myfritz.net:81">Siehe hier &raquo;</a>
             </p>
         </div>
         <div class="col-md-6">

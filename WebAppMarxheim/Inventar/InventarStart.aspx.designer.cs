@@ -11,7 +11,7 @@ namespace WebAppMarxheim
 {
 
 
-    public partial class Contact
+    public partial class _Default
     {
     }
 }
