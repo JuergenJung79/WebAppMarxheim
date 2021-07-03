@@ -12,18 +12,19 @@ namespace WebAppMarxheim.Modelle
     using System;
     using System.Collections.Generic;
     
-    public partial class Persons
+    public partial class Standord
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Persons()
+        public Standord()
         {
             this.Medizins = new HashSet<Medizin>();
         }
     
-        public int Personid { get; set; }
-        public string LastName { get; set; }
-        public string FirstName { get; set; }
-        public Nullable<int> Age { get; set; }
+        public int Adressid { get; set; }
+        public string Strasse { get; set; }
+        public Nullable<int> plz { get; set; }
+        public string ort { get; set; }
+        public string Land { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Medizin> Medizins { get; set; }

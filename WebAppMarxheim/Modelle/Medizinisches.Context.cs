@@ -13,10 +13,10 @@ namespace WebAppMarxheim.Modelle
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class WEBAPPEntities : DbContext
+    public partial class WEBAPPEntities1 : DbContext
     {
-        public WEBAPPEntities()
-            : base("name=WEBAPPEntities")
+        public WEBAPPEntities1()
+            : base("name=WEBAPPEntities1")
         {
         }
     
@@ -25,6 +25,8 @@ namespace WebAppMarxheim.Modelle
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Medizin> Medizin { get; set; }
         public virtual DbSet<Persons> Persons { get; set; }
+        public virtual DbSet<Standord> Standord { get; set; }
     }
 }

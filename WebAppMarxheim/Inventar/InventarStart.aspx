@@ -15,6 +15,8 @@
         </div>
         <div class="col-md-4">
             <h2>Sonstiges</h2>
+
+            <h4><a runat="server" href="~/Inventar/Stammdaten">Stammdaten</a></h4>
         </div>
     </div>
 
